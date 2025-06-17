@@ -1,0 +1,34 @@
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore virtual environments
+env/
+venv/
+foundation/
+
+# Ignore compiled C/C++ or binaries
+*.out
+*.exe
+
+# Ignore dataset files (if you don’t want to push them)
+datasets/
+*.nii
+*.zip
+*.tar.gz
+*.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore training history and checkpoints
+checkpoints/
+logs/
