@@ -31,4 +31,6 @@ Thumbs.db
 
 # Ignore training history and checkpoints
 checkpoints/
+checkpoints_cnn_vit/
+checkpoints_unet/
 logs/
